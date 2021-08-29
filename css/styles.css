@@ -1,0 +1,518 @@
+/* 
+
+
+### Primary
+
+- Dark Blue (intro and email sign up background): hsl(217, 28%, 15%)
+- Dark Blue (main background): hsl(218, 28%, 13%)
+- Dark Blue (footer background): hsl(216, 53%, 9%)
+- Dark Blue (testimonials background): hsl(219, 30%, 18%)
+
+
+### Accent
+
+- Cyan (inside call-to-action gradient): hsl(176, 68%, 64%)
+- Blue (inside call-to-action gradient): hsl(198, 60%, 50%)
+- Light Red (error): hsl(0, 100%, 63%)
+
+
+### Neutral
+
+- White: hsl(0, 0%, 100%) 
+
+
+###fonts
+
+font-family: 'Open Sans', sans-serif;
+font-family: 'Raleway', sans-serif;
+
+*/
+
+
+
+html body{
+    
+    background-color: hsl(218, 28%, 13%);
+    color: white;
+    
+}
+
+
+
+
+
+
+/* navigation section */
+
+
+#navigation-bar{
+    padding: 2% 5% ;
+    background-color: hsl(217, 28%, 15%);
+}
+
+.navbar .nav-link{
+    margin: 15px;
+    color: rgba(255, 255, 255, 0.555);
+}
+
+.navbar .nav-link:hover{
+    color: white;
+}
+.navbar img{
+    width: 75%;
+}
+
+
+
+
+
+/* header section */
+
+
+
+
+#heading{
+    
+    background-image: url(../images/bg-curvy-desktop.svg) ;
+    background-repeat: no-repeat;
+    background-position: bottom;
+    padding: 0% 7% ;
+    background-color: hsl(217, 28%, 15%);
+    margin-top:-30px ;
+    
+}
+.heading-img-div{
+    text-align: center;
+    margin-top: 30px;
+}
+
+.heading-pic{
+    width: 45%;
+}
+
+
+.heading-text{
+    text-align: center;
+    margin-top: 40px;
+}
+
+.heading-text h1{
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    width: 60%;
+    font-size: 2rem;
+    margin: 0 auto;
+    line-height: 1.5;
+}
+
+
+.heading-text p{
+    width: 42%;
+    margin: 0 auto;
+    line-height: 1.5;
+    margin-top: 30px;
+}
+
+.heading-text .btn{
+    margin-top: 25px;
+    padding: 10px 80px;
+    color: white;
+    font-weight: bold;
+    border-radius: 30px;
+    background-color:hsl(176, 68%, 64%) ;
+    margin-bottom: 100px;
+}
+
+.heading-text .btn:hover{
+    color: white;
+    background-color: hsla(176, 68%, 64%, 0.623) ;
+}
+
+
+
+
+
+/* features section  */
+
+
+body #features{
+    padding: 0% 7% 2%;
+}
+
+#features{
+    margin-top: 0px;
+    margin-bottom: 120px;
+    padding: 2% 7% 7% ;
+}
+#features .row1{
+    text-align: center;
+    margin-top: 80px;
+}
+
+
+.row1 h1{
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    font-size: 1.5rem;
+    margin-top: 35px;
+}
+
+.row1 p{
+    width: 70%;
+    margin: 0 auto;
+    margin-top: 10px;
+    color: rgba(255, 255, 255, 0.555);
+}
+
+
+
+
+
+/* team section */
+
+
+
+
+
+
+#team{
+    margin-bottom: 80px;
+    padding: 2% 7% ;
+}
+.row2 .col2{
+    padding: 80px;
+}
+.row2 .stay-productive-img{
+    width: 100%;
+}
+
+
+.row2 h1{
+    font-family:"Raleway";
+    font-weight: 700;
+    font-size: 2rem;
+    width: 70%;
+    margin: auto 0;
+    margin-bottom: 30px;
+}
+
+.row2 p{
+    color: rgba(255, 255, 255, 0.555);
+    width: 99%;
+}
+
+.row2 a{
+    color: hsl(176, 68%, 64%) ;
+}
+
+
+
+.quote{
+    position: relative;
+    top: 70px;
+    right: 10px;
+}
+
+
+#team .card{
+    background-color: hsl(219, 30%, 18%);
+    color: rgba(255, 255, 255, 0.555);
+    padding: 15px 7px 0;
+    margin-top: 60px;
+}
+
+.card .profile{
+    color: white;
+    margin-top: 15px;
+}
+
+.profile h1{
+    font-weight: 700;
+    font-size: .9rem;
+}
+
+.profile p{
+    font-size: .7rem;
+}
+
+.card img{
+    border-radius: 360px;
+    width: 40px;
+    float: left;
+    margin-right: 10px;
+}
+
+
+
+
+
+
+/* sign-in section */
+
+
+
+
+
+
+#sign-in .sign-in{
+    background-color: hsl(217, 28%, 15%);
+    width: 70%;
+    margin: 0 auto;
+    text-align: center;
+    padding:4% 5%;
+    border-radius: 10px;
+    box-shadow: 0px 3px 8px rgb(26, 25, 25);
+    position: relative;
+    top: 130px;
+}
+
+.sign-in h1{
+    font-family:"Raleway";
+    font-weight: 700;
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+.sign-in p{
+    color: rgba(255, 255, 255, 0.555);
+    margin-bottom: 30px;
+}
+
+
+.sign-in .email{
+    width: 70%;
+    border-radius: 40px;
+    float: left;
+    margin-right: 15px;
+}
+
+.email .form-control{
+    padding: 5px;
+    border-radius: 20px;
+    
+}
+
+
+.sign-in .btn{
+    font-size: .9rem;
+    color: white;
+    font-size: 600;
+    border-radius: 30px;
+    background-color:hsl(176, 68%, 64%) ;
+    margin-top: 2px;
+}
+
+
+.sign-in .btn:hover{
+    color: white;
+    background-color: hsla(176, 68%, 64%, 0.623) ;
+}
+
+
+
+
+
+
+
+/* footer section  */
+
+
+
+#footer{
+    text-align: left;
+    background-color: hsl(216, 53%, 9%);
+    margin: 0;
+    padding: 15% 3% 6% 5%;
+}
+
+#footer img{
+    margin-bottom: 30px;
+}
+
+#footer .fas{
+    position: absolute;
+    left: -10px;
+}
+.fab{
+    margin: 5px;
+}
+
+
+footer{
+    text-align: center;
+    background-color: hsl(216, 53%, 9%);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/* mobile responsive  */
+
+
+
+@media(max-width:1080px){
+
+
+
+    /* heading */
+
+
+    #heading{
+        background-image: url(../images/bg-curvy-mobile.svg);
+        background-size: cover;
+        height: 100vh;
+        padding-bottom:40px ;
+    }
+
+    #heading .heading-pic{
+        width: 80%;
+        
+        margin: 0 auto;
+        margin-top: 50px;
+        margin-bottom: 30px;
+    }
+
+    .heading-text h1{
+        width: 100%;
+    }
+    .heading-text p{
+        width: 80%;
+    }
+
+    
+
+    /* features */
+
+
+
+    body #features{
+        padding-top: 80px;
+    }
+
+    .row1 p{
+        width: 90%;
+    }
+
+    .row1 .col1{
+        margin-bottom: 80px;
+    }
+
+
+    .row1 .row1-2{
+        margin-top: 50px;
+    }
+
+    /* team */
+
+
+
+    body #team{
+        margin-bottom: 0;
+        padding: 0;
+        
+    }
+
+
+    #team .stay-productive-img{
+        width: 90%;
+        position: relative;
+        left: 20px;
+    }
+
+    .row2 h1{
+        width: 100%;
+        font-size: 2rem;
+    }
+
+    .row2 p{
+        width: 100%;
+    }
+
+    #team .card-deck{
+        padding: 30px;
+    }
+
+    #team .quote{
+        width: 10%;
+        position: relative;
+        left: 30px;
+        top: 100px;
+    }
+
+
+    /* sign-in */
+
+
+
+    #sign-in .sign-in{
+        margin-top: 0;
+        width: 90%;
+    }
+
+    .sign-in .form-control{
+        float: none;
+        margin: 0 auto;
+        width: 140%;
+        padding: 20px;
+        margin-bottom: 20px;
+    }
+
+    .sign-in .btn{
+        width: 100%;
+        padding: 10px;
+        margin-bottom: 10px;
+    }
+
+
+    /* footer  */
+
+    #footer{
+        padding-top: 200px;
+    }
+
+    #footer img{
+        margin: 20px;
+    }
+
+    #footer .fas{
+        margin-right: 10px;
+    }
+
+    
+    .col-md-7 .row{
+        margin: 10px;
+    }
+
+    #footer .col-md-6{
+        margin-bottom: 20px;
+    }
+
+    .col-md-6 h6{
+        margin-bottom: 10px;
+    }
+
+    .col-md-4 h6{
+        margin: 25px;
+    }
+
+    .col-md-4 .fab{
+        text-align: center;
+        position: relative;
+        left: 30%;
+        margin-top: 50px;
+        
+    }
+
+    .fab{
+        color: white;
+    }
+
+}
